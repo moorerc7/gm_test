@@ -23,12 +23,8 @@
           zoom: 11,
           center: dcCenter
         });
-        var marker = new google.maps.Marker({
-          position: dcCenter,
-          map: map
-        });
         var ctaLayer = new google.maps.KmlLayer({
-          url: 'https://github.com/moorerc7/gm_test/blob/master/kml_files/service_map2.kml',
+          url: 'https://raw.githubusercontent.com/moorerc7/gm_test/master/kml_files/service_map2.kml',
           map: map
         });
       }
