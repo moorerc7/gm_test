@@ -6,6 +6,11 @@
         height: 400px;
         width: 100%;
        }
+       html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+       }
     </style>
   </head>
   <body>
@@ -23,7 +28,7 @@
           map: map
         });
         var ctaLayer = new google.maps.KmlLayer({
-          url: 'gm_test/kml_files/service_map2.kml',
+          url: 'https://github.com/moorerc7/gm_test/blob/master/kml_files/service_map2.kml',
           map: map
         });
       }
